@@ -3,13 +3,16 @@ package hello.hellospring.service;
 import hello.hellospring.domain.Member;
 import hello.hellospring.repository.MemberRepository;
 
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.stereotype.Service;
+
 import java.util.List;
 import java.util.Optional;
 
 public class MemberService {
 
     private final MemberRepository memberRepository;    //리포지토리
-    
+
     public MemberService(MemberRepository memberRepository){
         this.memberRepository = memberRepository;   //리포지토리를 외부에서 생성
     }
