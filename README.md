@@ -12,10 +12,19 @@
 
 ### [2. 웹개발 기초](https://velog.io/@jiiina/Spring-%EA%B9%80%EC%98%81%ED%95%9C-%EC%8A%A4%ED%94%84%EB%A7%81-%EC%9E%85%EB%AC%B8-2)
 - 정적 컨텐츠
-- MVC
+- MVC와 템플릿엔진
 - API
 
-### [3. 회원관리 예제로 스프링 전반 이해하기](https://velog.io/@jiiina/Spring-%EA%B9%80%EC%98%81%ED%95%9C-%EC%8A%A4%ED%94%84%EB%A7%81-%EC%9E%85%EB%AC%B8-4-gczdoat8)
+### [3. 회원관리 예제로 스프링 전반 이해하기 (1)](https://velog.io/@jiiina/Spring-%EA%B9%80%EC%98%81%ED%95%9C-%EC%8A%A4%ED%94%84%EB%A7%81-%EC%9E%85%EB%AC%B8-4-gczdoat8)
 - 회원 domain & repository
 - 회원 service
 - Test Case 작성
+
+### [4. 회원관리 예제로 스프링 전반 이해하기 (2)](https://velog.io/@jiiina/Spring-%EA%B9%80%EC%98%81%ED%95%9C-%EC%8A%A4%ED%94%84%EB%A7%81-%EC%9E%85%EB%AC%B8-4)
+- Controller
+- 스프링 Bean과 의존관계
+
+### [5. 웹 MVC](https://velog.io/@jiiina/Spring-%EA%B9%80%EC%98%81%ED%95%9C-%EC%8A%A4%ED%94%84%EB%A7%81-%EC%9E%85%EB%AC%B8-5)
+- 홈 화면
+- 회원가입 기능
+- 회원목록 조회 기능
