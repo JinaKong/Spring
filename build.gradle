@@ -16,8 +16,13 @@ dependencies {
 	implementation 'org.springframework.boot:spring-boot-starter-thymeleaf'
 	implementation 'org.springframework.boot:spring-boot-starter-web'
 	testImplementation 'org.springframework.boot:spring-boot-starter-test'
-	implementation 'org.springframework.boot:spring-boot-starter-jdbc'	//Jdbc 관련 라이브러리
+	//implementation 'org.springframework.boot:spring-boot-starter-jdbc'	//Jdbc 관련 라이브러리
+	implementation 'org.springframework.boot:spring-boot-starter-data-jpa'	//jpa 관련 라이브러리
 	runtimeOnly 'com.h2database:h2'	//H2 DB 관련 라이브러리
+
+	testImplementation('org.springframework.boot:spring-boot-starter-test') {
+		exclude group: 'org.junit.vintage', module: 'junit-vintage-engine'
+	}
 }
 
 tasks.named('test') {
